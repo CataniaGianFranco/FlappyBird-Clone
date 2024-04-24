@@ -7,6 +7,14 @@ public class Scroll : MonoBehaviour
 
     private void Update()
     {
-        _rb.position += Vector3.left * _speed * Time.deltaTime;
+        Scrolling();
+    }
+
+    private void Scrolling()
+    {
+        if (!GameManager.Instance.IsGameOver)
+            _rb.position += Vector3.left * _speed * Time.deltaTime;
+        else
+            _rb.position = Vector3.zero;
     }
 }
