@@ -114,8 +114,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3492760157467703927}
+  - component: {fileID: 7738427153150486358}
   - component: {fileID: 584279575917890449}
   - component: {fileID: 547511830966205667}
+  - component: {fileID: 1949672712415383588}
   m_Layer: 0
   m_Name: Pipes
   m_TagString: Untagged
@@ -140,6 +142,27 @@ Transform:
   - {fileID: 2838437824565091263}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7738427153150486358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7103167941121094668}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 6.558078, z: 1}
+  m_Center: {x: 0, y: 0.7347474, z: 0}
 --- !u!54 &584279575917890449
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -180,6 +203,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 584279575917890449}
+--- !u!114 &1949672712415383588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7103167941121094668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64de92697eff04640ba67e7a75f8ca88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7583510223108080673
 GameObject:
   m_ObjectHideFlags: 0
