@@ -22,8 +22,6 @@ public class PlayerThirdController : MonoBehaviour
     private void Impulse()
     {
         if (Input.GetKeyDown(KeyCode.Space))
-        {
             _playerDirection.y = _impulseForce;
-        }
     }
 }
